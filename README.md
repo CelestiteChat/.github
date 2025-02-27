@@ -1,0 +1,2 @@
+# .github
+Our github config!
