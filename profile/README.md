@@ -18,14 +18,14 @@ Zentra is not a monolith. It is a collection of specialized services that togeth
 
 ## Repositories
 
-Here’s a breakdown of the main components that make up Celestite:
+Here’s a breakdown of the main components that make up Zentra:
 
 - [`Peridotite`](https://github.com/zentra-chat/Peridotite): Backend services written in Go
 - [`Strontium`](https://github.com/zentra-chat/Strontium): Custom embedded database for all services
 - [`Ilmenite`](https://github.com/zentra-chat/Ilmenite): Image processor and media handling service
 - [`Selenite`](https://github.com/zentra-chat/Selenite): Web and desktop UI built with modern frameworks
 - [`Lazulite`](https://github.com/zentra-chat/Lazulite): Mobile client developed with Flutter
-- [`zentra-docs`](https://github.com/zentra-chat/celestite-docs): Full project documentation
+- [`zentra-docs`](https://github.com/zentra-chat/zentra-docs): Full project documentation
 
 ## Architecture Philosophy
 
