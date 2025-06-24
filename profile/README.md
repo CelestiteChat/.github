@@ -1,10 +1,10 @@
-# Celestite
+# Zentra
 
-**Celestite** is a modular, scalable, open source chat platform inspired by Discord. It is designed from the ground up using a distributed microservices architecture written entirely in Go. Every component is purpose-built for performance, portability, and low external dependencys.
+**Zentra** is a modular, scalable, open source chat platform inspired by Discord. It is designed from the ground up using a distributed microservices architecture written entirely in Go. Every component is purpose-built for performance, portability, and low external dependencys.
 
 ## About the Project
 
-Celestite is not a monolith. It is a collection of specialized services that together form a full-featured chat system, with both frontend and backend components. Each piece is developed to run independently, allowing for horizontal scaling and service isolation.
+Zentra is not a monolith. It is a collection of specialized services that together form a full-featured chat system, with both frontend and backend components. Each piece is developed to run independently, allowing for horizontal scaling and service isolation.
 
 ### Key Features
 
@@ -20,17 +20,16 @@ Celestite is not a monolith. It is a collection of specialized services that tog
 
 Here’s a breakdown of the main components that make up Celestite:
 
-- [`Celestite`](https://github.com/CelestiteChat/Celestite): Main entry and overview of the system
-- [`Peridotite`](https://github.com/CelestiteChat/Peridotite): Backend services written in Go
-- [`Strontium`](https://github.com/CelestiteChat/Strontium): Custom embedded database for all services
-- [`Ilmenite`](https://github.com/CelestiteChat/Ilmenite): Image processor and media handling service
-- [`Selenite`](https://github.com/CelestiteChat/Selenite): Web and desktop UI built with modern frameworks
-- [`Lazulite`](https://github.com/CelestiteChat/Lazulite): Mobile client developed with Flutter
-- [`celestite-docs`](https://github.com/CelestiteChat/celestite-docs): Full project documentation
+- [`Peridotite`](https://github.com/zentra-chat/Peridotite): Backend services written in Go
+- [`Strontium`](https://github.com/zentra-chat/Strontium): Custom embedded database for all services
+- [`Ilmenite`](https://github.com/zentra-chat/Ilmenite): Image processor and media handling service
+- [`Selenite`](https://github.com/zentra-chat/Selenite): Web and desktop UI built with modern frameworks
+- [`Lazulite`](https://github.com/zentra-chat/Lazulite): Mobile client developed with Flutter
+- [`zentra-docs`](https://github.com/zentra-chat/celestite-docs): Full project documentation
 
 ## Architecture Philosophy
 
-Celestite is structured for clarity and modularity:
+Zentra is structured for clarity and modularity:
 
 - Each microservice maintains its own data using Strontium
 - No external databases, no Redis or third-party caching
